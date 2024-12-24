@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f5f5f5;
+  }
+  
+  .container {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #444;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #number-output {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #555;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  #seed-info {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #888;
+  }
+  
+  #notification {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  input[type="number"] {
+    width: 70px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }  
